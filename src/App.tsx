@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import MainPage from './components/MainPage';
-import ExamSchedule from './components/ExamSchedule';
-import SearchSection from './components/SearchSection';
-import AllResultsSection from './components/AllResultsSection';
-import StatsSection from './components/StatsSection';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { MainPage } from './components/MainPage';
+import { ExamSchedule } from './components/ExamSchedule';
+import { SearchSection } from './components/SearchSection';
+import { AllResultsSection } from './components/AllResultsSection';
+import { StatsSection } from './components/StatsSection';
 import { rankedStudents } from './data/students';
 import { calculateStats } from './utils/contestStats';
 import type { Student } from './types';
